@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Irfans' Webpage</title>
+	<link rel="stylesheet" href="../../just-the-docs-default.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      processEscapes: true}
+  	});
+	</script>
+	<script type="text/javascript"src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</script>
+</head>
+
+
+<body>
+	<div class="side-bar">
+		<div class="site-header"> 
+			<a href="index.html" class="site-title"> Irfans' Webpage </a> 
+		</div>
+		<nav role="navigation" aria-label="Main" id="site-nav" class="site-nav nav-open">
+			<ul class="nav-list">
+				<li class="nav-list-item">
+					<a href="../../index.html" class="nav-list-link">Home</a></li>
+				<li class="nav-list-item">
+					<a href="../../research.html" class="nav-list-link">Research</a></li>
+				<li class="nav-list-item active">
+					<a href="../../notebook.html" class="nav-list-link active">Notebook</a></li>
+				<li class="nav-list-item">
+					<a href="../../python.html" class="nav-list-link">Python</a></li>
+				<li class="nav-list-item">
+					<a href="../../about-me.html" class="nav-list-link">About Me</a></li>
+				<li class="nav-list-item">
+					<a href="../../contact.html" class="nav-list-link">Contact</a></li>
+			</ul>
+		</nav>
+		<footer class="site-footer"> This site inpired and used by <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+		</footer>
+	</div>
+
+	<div class="main" id="top">
+		<div id="main-content-wrap" class="main-content-wrap">
+			<div id="main-content" class="main-content" role="main">
+				<hr>
+				<h2 id="getting-started"> 
+					<a href="#getting-started" class="anchor-heading" aria-labelledby="getting-started">
+						<svg viewBox="0 0 16 16" aria-hidden="true">
+							<use xlink:href="#svg-link"></use>
+						</svg>
+					</a> Hypsometric Equation 
+				</h2>
+				<p> The hypsometric equation is expressed:</p>
+				<p> $$ Z_1 - Z_2 = \overline{H}\ ln(\frac{p_1}{p_2}) = \frac{R_d \overline{T_v}}{g_0}\ ln(\frac{p_1}{p_2}) $$</p>
+				<p>Example:</p>
+				<p>Compute the thickness of layer $850 mb - 750 mb$</p>
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align: left">Pressure (mb)</th>
+							<th style="text-align: left">Temperature ($\unicode{xb0}C$)</th>
+							<th style="text-align: left">Specific Humidity (g/kg)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align: left">850</td>
+							<td style="text-align: left">10.4</td>
+							<td style="text-align: left">9.2</td>
+						</tr>
+						<tr>
+							<td style="text-align: left">700</td>
+							<td style="text-align: left">1.8</td>
+							<td style="text-align: left">3.5</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>From table, we can calculate $T_v$ for each layer.</p>
+				<p>$$T_v = (1 + 0.61q)T$$</p>
+				<ul>
+					<li>$850\;mb$
+						<p>$q = 9.2 \; g/kg = 0.0092$</p>
+						<p>$T = 10.4 \, \unicode{xb0}C = 283.55 \,K$</p>
+						<p>$$\begin{aligned} T_v &= (1 + 0.61(0.0092))\,283.55 \\ &= 285.14 \,K \end{aligned}$$</p>
+					</li>
+					<li>$700 mb$
+						<p>$q = 3.5 \; g/kg = 0.0035$</p>
+						<p>$T = 1.8 \, \unicode{xb0}C = 274.95 \,K$</p>
+						<p>$$\begin{aligned} T_v &= (1 + 0.61(0.0035))\,274.95 \\ &= 275.53 \,K \end{aligned}$$</p>
+					</li>
+				</ul>
+				<p>From equation:</p>
+				<p>$$\begin{aligned} Z_1 - Z_2 &= \frac{R_d \overline{T_v}}{g_0}\ ln(\frac{p_1}{p_2}) \\ &= -[\frac{287(\frac{285.14+275.53}{2})}{9.81}] \, ln(\frac{700}{800}) \\ &= 1592.36 \, m \end{aligned}$$</p>
+				<p>So, the layer thickness of $850 - 700 \; mb$ layer is $1592.36 \; m$</p>
+				<hr>
+				<footer>
+					<p>
+						<a href="#top" id="back-to-top">Back to top</a>
+					</p>
+					<p class="text-small text-grey-dk-100 mb-0">Copyright © 2022 Irfans Maulana Firdaus. Distributed by an 
+						<a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> 
+						<a href="https://www.netlify.com/">This site is powered by Netlify.</a>
+					</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

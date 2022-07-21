@@ -3,6 +3,12 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+div.cmath {
+  display: block;
+  margin: 20px 0px 20px 30px;
+  padding-left: 50px; padding-top: 8px; padding-bottom: 8px;
+  white-space : pre;
+}
 body {
   margin: 0;
 }
