@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Topik Tugas Akhir</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, select, textarea, label, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+      h1 {
+      position: absolute;
+      margin: 0;
+      font-size: 40px;
+      color: #fff;
+      z-index: 2;
+      line-height: 83px;
+      }
+      textarea {
+      width: calc(100% - 12px);
+      padding: 5px;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 8px  #669999; 
+      }
+      .banner {
+      position: relative;
+      height: 300px;
+      background-image: url("/uploads/media/default/0001/02/c1504011491c4e04e5158b63a27a4ea654b03ed1.jpeg");  
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .banner::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.2); 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      }
+      input, select, textarea {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+      input[type="date"] {
+      padding: 4px 5px;
+      }
+      textarea {
+      width: calc(100% - 12px);
+      padding: 5px;
+      }
+      .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+      color:  #669999;
+      }
+      .item input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 3px 0  #669999;
+      color: #669999;
+      }
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+      .item span {
+      color: red;
+      }
+      .week {
+      display:flex;
+      justfiy-content:space-between;
+      }
+      .colums {
+      display:flex;
+      justify-content:space-between;
+      flex-direction:row;
+      flex-wrap:wrap;
+      }
+      .colums div {
+      width:48%;
+      }
+      input[type="date"]::-webkit-inner-spin-button {
+      display: none;
+      }
+      .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+      position: absolute;
+      font-size: 20px;
+      color:  #a3c2c2;
+      }
+      .item i {
+      right: 1%;
+      top: 30px;
+      z-index: 1;
+      }
+      input[type=radio], input[type=checkbox]  {
+      display: none;
+      }
+      label.radio {
+      position: relative;
+      display: inline-block;
+      margin: 5px 20px 15px 0;
+      cursor: pointer;
+      }
+      .question span {
+      margin-left: 30px;
+      }
+      .question-answer label {
+      display: block;
+      }
+      label.radio:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      }
+      input[type=radio]:checked + label:before, label.radio:hover:before {
+      border: 2px solid  #669999;
+      }
+      label.radio:after {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 5px;
+      width: 8px;
+      height: 4px;
+      border: 3px solid  #669999;
+      border-top: none;
+      border-right: none;
+      transform: rotate(-45deg);
+      opacity: 0;
+      }
+      input[type=radio]:checked + label:after {
+      opacity: 1;
+      }
+      .flax {
+      display:flex;
+      justify-content:space-around;
+      }
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background:  #669999;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background:  #a3c2c2;
+      }
+      @media (min-width: 568px) {
+      .name-item, .city-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .name-item input, .name-item div {
+      width: calc(50% - 20px);
+      }
+      .name-item div input {
+      width:97%;}
+      .name-item div label {
+      display:block;
+      padding-bottom:5px;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="testbox">
+      <form method="POST" action="https://script.google.com/macros/s/AKfycbw5mHgCVLJuklnZd9dt97soGmWcHHCIQ51F5ISHAEnrcxBJFWBQjDfB1Z4PwRWJd2SsxQ/exec">
+        <div class="banner">
+          <h1>TOPIK TUGAS AKHIR</h1>
+        </div>
+        <div class="colums">
+          <div class="item">
+            <label for="Nama">Nama Lengkap<span>*</span></label>
+            <input id="Nama" type="tel"   name="Nama"  placeholder="Nama" required/>
+          </div>
+		  <div class="item">
+            <label for="NIM">NIM<span>*</span></label>
+            <input id="NIM" type="tel"   name="NIM"  placeholder="NIM" required/>
+          </div>
+        </div>
+        <div class="question">
+          <label>Topik TA</label>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="1" id="radio_1" name="Topik"  placeholder="Topik"/>
+              <label for="radio_1" class="radio"><span>Analisa perubahan penggunaan lahan dipedesaan dan sistem ekonominya</span></label>
+            </div>
+            <div>
+              <input  type="radio" value="2" id="radio_2" name="Topik"  placeholder="Topik"/>
+              <label for="radio_2" class="radio"><span>Analisis dampak siklon tropis terhadap sebaran pm25 di salah satu Kota Besar Indonesia</span></label>
+            </div>
+            <div>
+              <input  type="radio" value="3" id="radio_3" name="Topik"  placeholder="Topik"/>
+              <label for="radio_3" class="radio"><span>Analisis dan prediksi kekeringan meteorologi</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="4" id="radio_4" name="Topik"  placeholder="Topik"/>
+              <label for="radio_4" class="radio"><span>Analisis data cuaca dan iklim 1</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="5" id="radio_5" name="Topik"  placeholder="Topik"/>
+              <label for="radio_5" class="radio"><span>Analisis data cuaca dan iklim 2</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="6" id="radio_6" name="Topik"  placeholder="Topik"/>
+              <label for="radio_6" class="radio"><span>Analisis data cuaca dan iklim 3</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="7" id="radio_7" name="Topik"  placeholder="Topik"/>
+              <label for="radio_7" class="radio"><span>Analisis musiman PM2.5 berdasarkan indeks standar pencemaran udara di Tangerang Selatan/ DKI JKT</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="8" id="radio_8" name="Topik"  placeholder="Topik"/>
+              <label for="radio_8" class="radio"><span>Case study photocemical smog/kabut asap di perkotaan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="9" id="radio_9" name="Topik"  placeholder="Topik"/>
+              <label for="radio_9" class="radio"><span>Characteristics of extreme rainfall over western Java</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="10" id="radio_10" name="Topik"  placeholder="Topik"/>
+              <label for="radio_10" class="radio"><span>Dampak fenomena yg terjadi di samudra Hindia dan Pasifik (IOD, ENSO konvensional dan modoki) serta monsoon pada kondisi cuaca, musim dan iklim di wilayah tropis khususnya Indonesia</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="11" id="radio_11" name="Topik"  placeholder="Topik"/>
+              <label for="radio_11" class="radio"><span>Dampak perubahan iklim di Indonesia</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="12" id="radio_12" name="Topik"  placeholder="Topik"/>
+              <label for="radio_12" class="radio"><span>Dampak perubahan iklim terhadap cold surge dan curah hujan di Benua Maritim</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="13" id="radio_13" name="Topik"  placeholder="Topik"/>
+              <label for="radio_13" class="radio"><span>Desain dan rancang bagun radar meteorologi untuk pengamatan awan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="14" id="radio_14" name="Topik"  placeholder="Topik"/>
+              <label for="radio_14" class="radio"><span>Desain wilayah zona ekonomi kaitanya dengan energi dan transportasi antar provinsi</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="15" id="radio_15" name="Topik"  placeholder="Topik"/>
+              <label for="radio_15" class="radio"><span>Evaluasi prediksi musim global</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="16" id="radio_16" name="Topik"  placeholder="Topik"/>
+              <label for="radio_16" class="radio"><span>Evaluation of Global Model precipitation over western Java </span></label>
+            </div>
+			<div>
+              <input  type="radio" value="17" id="radio_17" name="Topik"  placeholder="Topik"/>
+              <label for="radio_17" class="radio"><span>Hazard, kerentanan, kemampuan adaptif dan risiko perubahan iklim ditinjau dari aspek fisik dan sosial</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="18" id="radio_18" name="Topik"  placeholder="Topik"/>
+              <label for="radio_18" class="radio"><span>Identifikasi faktor meteorologi yang dipakai sebagai dasar hukum hukum adat di pedesaan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="19" id="radio_19" name="Topik"  placeholder="Topik"/>
+              <label for="radio_19" class="radio"><span>Kaitan antara cuaca, musim dan iklim pada dunia pertanian dan kehutanan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="20" id="radio_20" name="Topik"  placeholder="Topik"/>
+              <label for="radio_20" class="radio"><span>Kajian cuaca sepanjang rute penerbangan sebagai antasipasi ganggiuan selama pernerbangan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="21" id="radio_21" name="Topik"  placeholder="Topik"/>
+              <label for="radio_21" class="radio"><span>Kajian iklim/cuaca skala mikro di bandara untuk keperluan oprasional penerbangan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="22" id="radio_22" name="Topik"  placeholder="Topik"/>
+              <label for="radio_22" class="radio"><span>Karakteristik hidrometeorologi pada kejadian banjir bandang Ciwidey - Bandung 2022.</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="23" id="radio_23" name="Topik"  placeholder="Topik"/>
+              <label for="radio_23" class="radio"><span>Kebencanaan hidrometeorologi khususnya banjir dan kekeringan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="24" id="radio_24" name="Topik"  placeholder="Topik"/>
+              <label for="radio_24" class="radio"><span>Kondisi hidrometeorologi pada kejadian banjir bandang Cimanuk - Garut 2022. </span></label>
+            </div>
+			<div>
+              <input  type="radio" value="25" id="radio_25" name="Topik"  placeholder="Topik"/>
+              <label for="radio_25" class="radio"><span>Meso I</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="26" id="radio_26" name="Topik"  placeholder="Topik"/>
+              <label for="radio_26" class="radio"><span>Meso II</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="27" id="radio_27" name="Topik"  placeholder="Topik"/>
+              <label for="radio_27" class="radio"><span>Meso III</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="28" id="radio_28" name="Topik"  placeholder="Topik"/>
+              <label for="radio_28" class="radio"><span>Metode Numerik I</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="29" id="radio_29" name="Topik"  placeholder="Topik"/>
+              <label for="radio_29" class="radio"><span>Metode Numerik II</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="30" id="radio_30" name="Topik"  placeholder="Topik"/>
+              <label for="radio_30" class="radio"><span>Model cuaca</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="31" id="radio_31" name="Topik"  placeholder="Topik"/>
+              <label for="radio_31" class="radio"><span>Pemanfaatan data kolom uap air dari GNSS </span></label>
+            </div>
+			<div>
+              <input  type="radio" value="32" id="radio_32" name="Topik"  placeholder="Topik"/>
+              <label for="radio_32" class="radio"><span>Pemanfaatan data meteorologi untuk pengendalian lahan kebun industri dan peternakan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="33" id="radio_33" name="Topik"  placeholder="Topik"/>
+              <label for="radio_33" class="radio"><span>Pemanfaatan data satelit landsat untuk di bidang lingkungan (pertanian,kehutanan,kenyamanan, tataguna lahan, kajian heat island dll)</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="34" id="radio_34" name="Topik"  placeholder="Topik"/>
+              <label for="radio_34" class="radio"><span>Pemanfaatan data satelit landsat untuk monitoring kebencanaan </span></label>
+            </div>
+			<div>
+              <input  type="radio" value="35" id="radio_35" name="Topik"  placeholder="Topik"/>
+              <label for="radio_35" class="radio"><span>Penerapan model hidrologi empirik untuk sistem peringatan dini banjir</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="36" id="radio_36" name="Topik"  placeholder="Topik"/>
+              <label for="radio_36" class="radio"><span>Pengembangan peta bahaya dan kerentanan angin kencang untuk perancangan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="37" id="radio_37" name="Topik"  placeholder="Topik"/>
+              <label for="radio_37" class="radio"><span>Pengembangan prediksi musim di Indonesia</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="38" id="radio_38" name="Topik"  placeholder="Topik"/>
+              <label for="radio_38" class="radio"><span>Pengembangan prediksi sub-musim di Indonesia</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="39" id="radio_39" name="Topik"  placeholder="Topik"/>
+              <label for="radio_39" class="radio"><span>Pengembangan sistem prediksi cuaca dengan meng-update data tutupan lahan di Cekungan Bandung </span></label>
+            </div>
+			<div>
+              <input  type="radio" value="40" id="radio_40" name="Topik"  placeholder="Topik"/>
+              <label for="radio_40" class="radio"><span>Penggunaan metode statistik dan analisa signal (FFT, wavelet) dalam mengungkapkan berbagai fenomena atmosfer</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="41" id="radio_41" name="Topik"  placeholder="Topik"/>
+              <label for="radio_41" class="radio"><span>Peningkatan potensi banjir akibat perubahan iklim di P. Jawa</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="42" id="radio_42" name="Topik"  placeholder="Topik"/>
+              <label for="radio_42" class="radio"><span>Peran perubahan suhu permukaan laut terhadap variabilitas cuaca di Indonesia</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="43" id="radio_43" name="Topik"  placeholder="Topik"/>
+              <label for="radio_43" class="radio"><span>Perubahan curah hujan ekstem akibat perubahan iklim di P. Jawa</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="44" id="radio_44" name="Topik"  placeholder="Topik"/>
+              <label for="radio_44" class="radio"><span>Prediksi polutan menggunakan wrf ==> http://weather.meteo.itb.ac.id/</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="45" id="radio_45" name="Topik"  placeholder="Topik"/>
+              <label for="radio_45" class="radio"><span>Prediksi visibilitas untuk keselamatan penerbangan</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="46" id="radio_46" name="Topik"  placeholder="Topik"/>
+              <label for="radio_46" class="radio"><span>Proses cuaca</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="47" id="radio_47" name="Topik"  placeholder="Topik"/>
+              <label for="radio_47" class="radio"><span>Semi Annual of precipitation and ENSO modulation over western Java</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="48" id="radio_48" name="Topik"  placeholder="Topik"/>
+              <label for="radio_48" class="radio"><span>Tophographic effect to precipitation over Bandung Basin</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="49" id="radio_49" name="Topik"  placeholder="Topik"/>
+              <label for="radio_49" class="radio"><span>Transpor PM25 pada saat terdeteksi cold surge</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="50" id="radio_50" name="Topik"  placeholder="Topik"/>
+              <label for="radio_50" class="radio"><span>Urban Drought (Topic)</span></label>
+            </div>
+			
+          </div>
+        </div>
+
+
+
+        <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+	<script>
+		let uncheckedRadioButtons = 
+			document.querySelectorAll('input[type="radio"]:checked'); 
+			for(let radioBtn of uncheckedRadioButtons){
+			   radioBtn.setAttribute("disabled", "")
+			}
+	</script>
+  </body>
+</html>
