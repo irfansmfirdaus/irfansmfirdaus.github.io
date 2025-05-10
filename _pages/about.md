@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student in <a href='https://wind.gp.tohoku.ac.jp/'>Atmospheric Science Laboratory</a>, <a href='https://www.gp.tohoku.ac.jp/index-en.html'>Geophysics Department</a>, <a href='https://www.sci.tohoku.ac.jp/english/'>Graduate School of Science</a>, <a href='https://www.tohoku.ac.jp/en/'>Tohoku University</a>, Japan.
 
 profile:
   align: right
