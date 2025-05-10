@@ -19,15 +19,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a PhD student in <a href='https://wind.gp.tohoku.ac.jp/'>Atmospheric Science Laboratory</a>, <a href='https://www.gp.tohoku.ac.jp/index-en.html'>Geophysics Department</a>, <a href='https://www.sci.tohoku.ac.jp/english/'>Graduate School of Science</a>, at the <a href='https://www.tohoku.ac.jp/en/'>Tohoku University</a>, Japan. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before doing my PhD, I went to Meteorology (B.Sc) and Earth Science (M.Sc) at the <a href='https://itb.ac.id/en?n=1746881850'>Bandung Institute of Technology</a>, Indonesia. My previous research were about Persistent Elongated Convective System (PECS) in Indonesia and investigation about the mechanism of initiation and regeneration of convective cell in complex topography in Indonesia.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am focus on tornado in tropical region, especially in Indonesia. Tornadoes are often happening in mid-latitude region. However, tornadoes also can occur in tropical region. For example <a href='https://itb.ac.id/berita/kejadian-di-rancaekek-tornado-atau-puting-beliung-ini-kata-pakar-sains-atmosfer-itb/60394'>Tornado Rancaekek 2024</a> (in Indonesian). I do analyze the climatological tornado for Indonesia by collecting tornado reports since 1800, investigate the environment condition that can lead tornadogenesis by examining tornadic parameter using reanalysis data and sounding data, and simulate the Tornado Rancaekek using numerical modeling (<a href='https://www.mmm.ucar.edu/models/wrf'>Weather Research and Forecasting Model</a>).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to reach out me on irfansmfirdaus[at]gmail[dot]com or firdaus.irfans.maulana.q6[at]dc[dot]tohoku[dot]ac[dot]jp !!!
