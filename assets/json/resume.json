@@ -1,36 +1,71 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Irfans Maulana Firdaus",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "firdaus.irfans.maulana.q6@dc.tohoku.ac.jp",
+    "phone": "",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Aoba-6-3 Aramaki",
+      "postalCode": "980-0845",
+      "city": "Sendai",
+      "countryCode": "JP",
+      "region": "Miyagi"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Tohoku University",
+      "location": "Miyagi, Japan",
+      "url": "https://www.tohoku.ac.jp/en/",
+      "area": "Geophysics, Graduate School of Science",
+      "studyType": "PhD",
+      "startDate": "2023-10-01",
+      "endDate": "now",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Bandung Institute of Technology (ITB)",
+      "location": "Bandung, Indonesia",
+      "url": "https://itb.ac.id/en?n=1746883684",
+      "area": "Earth Science, Faculty of Earth Science and Technology",
+      "studyType": "MSc",
+      "startDate": "2021-07",
+      "endDate": "2023-06",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Bandung Institute of Technology (ITB)",
+      "location": "Bandung, Indonesia",
+      "url": "https://itb.ac.id/en?n=1746883684",
+      "area": "Meteorology, Faculty of Earth Science and Technology",
+      "studyType": "BSc",
+      "startDate": "2015-07",
+      "endDate": "2019-10",
+      "score": "",
+      "courses": [""]
+    }
+  ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "",
+      "position": "",
+      "url": "h",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
     }
   ],
   "volunteer": [
@@ -43,19 +78,6 @@
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
