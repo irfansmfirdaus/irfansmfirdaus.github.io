@@ -59,6 +59,16 @@
   ],
   "work": [
     {
+      "organization": "Bandung Institute of Technology (ITB)",
+      "location": "Bandung, Indonesia",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2021-08",
+      "endDate": "2023-06",
+      "summary": "Did several projects: climate change in Jakarta (Indonesia), storm hazard in Laos, risk assessment for some region in Indonesia, etc",
+      "highlights": ""
+    },
+    {
       "name": "Nafas Indonesia",
       "position": "Data Analyst Intern",
       "url": "https://nafas.co.id/about",
@@ -74,18 +84,6 @@
       "startDate": "2019-11",
       "endDate": "2021-08",
       "summary": "Made a Robot Framework and Developing a employment forecast system",
-      "highlights": ""
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Bandung Institute of Technology (ITB)",
-      "location": "Bandung, Indonesia",
-      "position": "Research Assistant",
-      "url": "",
-      "startDate": "2021-08",
-      "endDate": "2023-06",
-      "summary": "Did several projects: climate change in Jakarta (Indonesia), storm hazard in Laos, risk assessment for some region in Indonesia, etc",
       "highlights": ""
     }
   ],
