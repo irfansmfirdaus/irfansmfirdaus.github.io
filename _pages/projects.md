@@ -2,7 +2,7 @@
 layout: page
 title: Fun Thing
 permalink: /projects/
-description: 
+description: Code and Paper Summary
 nav: true
 nav_order: 3
 display_categories: [code, paper]
