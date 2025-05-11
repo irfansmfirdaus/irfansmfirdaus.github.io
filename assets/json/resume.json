@@ -64,7 +64,7 @@
       "url": "https://nafas.co.id/about",
       "startDate": "2022-08",
       "endDate": "2023-01",
-      "summary": "Analyzing air quality data across Indonesia",
+      "summary": "Analyzed air quality data across Indonesia",
       "highlights": ""
     },
     {
@@ -73,7 +73,7 @@
       "url": "",
       "startDate": "2019-11",
       "endDate": "2021-08",
-      "summary": "Making a Robot Framework and Developing a employment forecast system",
+      "summary": "Made a Robot Framework and Developing a employment forecast system",
       "highlights": ""
     }
   ],
@@ -85,17 +85,8 @@
       "url": "",
       "startDate": "2021-08",
       "endDate": "2023-06",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Did several projects: climate change in Jakarta (Indonesia), storm hazard in Laos, risk assessment for some region in Indonesia, etc",
+      "highlights": ""
     }
   ],
   "skills": [
