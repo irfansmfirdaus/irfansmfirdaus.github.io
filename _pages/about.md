@@ -30,4 +30,4 @@ Before doing my PhD, I went to Meteorology (B.Sc) and Earth Science (M.Sc) at th
 
 Currently, I am focus on tornado in tropical region, especially in Indonesia. Tornadoes are often happening in mid-latitude region. However, tornadoes also can occur in tropical region. For example <a href='https://itb.ac.id/berita/kejadian-di-rancaekek-tornado-atau-puting-beliung-ini-kata-pakar-sains-atmosfer-itb/60394'>Tornado Rancaekek 2024</a> (in Indonesian). I do analyze the climatological tornado for Indonesia by collecting tornado reports since 1800, investigate the environment condition that can lead tornadogenesis by examining tornadic parameter using reanalysis data and sounding data, and simulate the Tornado Rancaekek using numerical modeling (<a href='https://www.mmm.ucar.edu/models/wrf'>Weather Research and Forecasting Model</a>).
 
-Feel free to reach out me on irfansmfirdaus[at]gmail[dot]com or firdaus[dot]irfans[dot]maulana[dot]q6[at]dc[dot]tohoku[dot]ac[dot]jp !!!
+Feel free to reach out me on irfansmfirdaus@gmail.com or firdaus.irfans.maulana.q6@dc.tohoku.ac.jp !!!
