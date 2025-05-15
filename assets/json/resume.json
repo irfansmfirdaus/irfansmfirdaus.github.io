@@ -1,27 +1,4 @@
 {
-  "basics": {
-    "name": "Irfans Maulana Firdaus",
-    "label": "",
-    "image": "",
-    "email": "firdaus.irfans.maulana.q6@dc.tohoku.ac.jp",
-    "phone": "",
-    "url": "",
-    "summary": "",
-    "location": {
-      "address": "Aoba-6-3 Aramaki",
-      "postalCode": "980-0845",
-      "city": "Sendai",
-      "countryCode": "JP",
-      "region": "Miyagi"
-    },
-    "profiles": [
-      {
-        "network": "",
-        "username": "",
-        "url": ""
-      }
-    ]
-  },
   "education": [
     {
       "institution": "Tohoku University",
@@ -87,6 +64,18 @@
       "highlights": ""
     }
   ],
+  "awards": [{ 
+    "Awards": {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    "Scholarship": {
+      "title": "LPDP"
+    }
+  }]
   "skills": [
     {
       "name": "Programming Language",
