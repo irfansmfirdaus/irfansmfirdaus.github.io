@@ -38,7 +38,7 @@ ninja.data = [{
             },},{id: "news-paper-mechanism-of-initiation-and-regeneration-of-convective-cell-in-bandung-basin-indonesia-is-now-published-in-geoscience-letter",
           title: 'Paper “Mechanism of initiation and regeneration of convective cell in Bandung Basin, Indonesia”...',
           description: "",
-          section: "News",},{id: "news-manuscript-with-title-indonesia-tornado-database-tornado-climatology-of-indonesia-is-now-submitted-in-natural-hazards-and-earth-system-sciences-nhess-and-open-for-discussion-and-under-review",
+          section: "News",},{id: "news-manuscript-with-title-indonesia-tornado-database-tornado-climatology-of-indonesia-is-now-submitted-in-natural-hazards-and-earth-system-sciences-nhess-open-for-discussion-and-under-review",
           title: 'Manuscript with title “Indonesia Tornado Database: Tornado Climatology of Indonesia” is now submitted...',
           description: "",
           section: "News",},{id: "projects-project-1",
