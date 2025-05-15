@@ -64,21 +64,30 @@
       "highlights": ""
     }
   ],
-  "awards": [
-    { "Awards": [
-      {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }]},
+   "awards": [
     {
-      "Scholarship": [
-        {
-          "title": "LPDP"
-        }
-      ]
+      "title": "Scholarship for Doctoral Degree in Japan",
+      "date": "2023-10",
+      "awarder": "Japan International Cooperation Agency (JICA)",
+      "summary": "Program: Human Resources Development in Science, Technology, and Innovation Program"
+    },
+    {
+      "title": "Scholarship for Master Degree in Indonesia",
+      "date": "2021-08",
+      "awarder": "LPDP Republik Indonesia",
+      "summary": ""
+    },
+    {
+      "title": "The Best Student of Meteorology",
+      "date": "2018-08",
+      "awarder": "Bandung Institute of Technology (ITB)",
+      "summary": "The Rector of ITB grants an award to the top-performing undergraduate student with the highest GPA in each study program for their batch"
+    },
+    {
+      "title": "Dean's Award for Academic Achievement",
+      "date": "2015-08 to 2018-12",
+      "awarder": "Bandung Institute of Technology (ITB)",
+      "summary": "The Dean's grants an award to the top-performing undergraduate student. Got for 7 semesters."
     }
   ],
   "skills": [
