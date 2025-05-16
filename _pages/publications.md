@@ -18,3 +18,8 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+
+<h2 id='conference'>
+    <strong>Conference</strong>
+</h2>
