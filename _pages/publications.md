@@ -20,7 +20,6 @@ nav_order: 2
 </div>
 
 <br/><br/>
-<br/><br/>
 <h1 id='conference'>Conferences</h1>
 <ul>
   <li>
