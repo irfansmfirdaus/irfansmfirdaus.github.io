@@ -11,6 +11,10 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
+<h1 id='publication'>
+    <strong>Publication</strong>
+</h1>
+
 {% include bib_search.liquid %}
 
 <div class="publications">
@@ -20,6 +24,6 @@ nav_order: 2
 </div>
 
 
-<h2 id='conference'>
+<h1 id='conference'>
     <strong>Conference</strong>
-</h2>
+</h1>
