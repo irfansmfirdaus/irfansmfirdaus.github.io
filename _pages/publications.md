@@ -23,7 +23,7 @@ nav_order: 2
 <h1 id='conference'>Conferences</h1>
 <ul>
   <li>
-    <strong>Irfans Maulana Firdaus</strong>, Nurjanna Joko Trilaksono, and Takeshi Yamazaki (2024) "Mechanism of Initiation and Regeneration Convective Cell in Bandung Basin, Indonesia", Presented at Asia Oceania Geoscience Society 2024, Pyeongchang, South Korea. (Poster presentation: 28 June 2024)
+    <strong>Irfans Maulana Firdaus</strong>, Nurjanna Joko Trilaksono, and Takeshi Yamazaki (2024) "Mechanism of Initiation and Regeneration Convective Cell in Bandung Basin, Indonesia", Presented at Asia Oceania Geoscience Society 2024, Pyeongchang, South Korea. (Presentation: 28 June 2024)
   </li>
   <li>
     <strong>Irfans Maulana Firdaus</strong> and Takeshi Yamazaki (2024) "Effect of Topography and Wind Direction on Convective Initiation and Precipitation Distribution in Bandung Basin, Indonesia", Poster presented at Earth, Sea and Sky IX: International Joint Graduate Program Workshop in Earth and Environmental Sciences, Sendai, Japan. (Poster presentation: 4 June 2024)
