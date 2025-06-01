@@ -23,6 +23,9 @@ nav_order: 2
 <h1 id='conference'>Conferences</h1>
 <ul>
   <li>
+    <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah, Edi Riawan (2025) "Tornado Climatology of Indonesia", Presented at Japan Geoscience Union (JpGU) Meeting 2025, Chiba, Japan. (Presentation: 30 May 2024)
+  </li>
+  <li>
     <strong>Irfans Maulana Firdaus</strong>, Nurjanna Joko Trilaksono, and Takeshi Yamazaki (2024) "Mechanism of Initiation and Regeneration Convective Cell in Bandung Basin, Indonesia", Presented at Asia Oceania Geoscience Society 2024, Pyeongchang, South Korea. (Presentation: 28 June 2024)
   </li>
   <li>
