@@ -51,6 +51,11 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project%20-%20Copy/";
+            },},{id: "projects-ocean-warming",
+          title: 'Ocean Warming',
+          description: "Observation and Projected Impact on Marine Environment",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
       id: 'light-theme',
