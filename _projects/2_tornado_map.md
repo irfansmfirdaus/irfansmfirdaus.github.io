@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Indonesia Tornado Map
+title: Indonesia Tornadoes Map
 description: 
 img: assets/img/tornadomap.jpg
 importance: 1
