@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Indonesia Tornado Map
-description: 
 img: assets/img/tornadomap.jpg
 importance: 1
 redirect: https://irfansmfirdaus.github.io/indonesiatornadomap/
