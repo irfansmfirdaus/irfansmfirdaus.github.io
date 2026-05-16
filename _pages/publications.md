@@ -23,7 +23,7 @@ nav_order: 2
 <h1 id='conference'>Conferences</h1>
 <ul>
   <li>
-    <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah(2025) "Comparison ERA5 and Sounding Data over Tropical Maritime Region", Presented at The Meteorological Society of Japan (MSJ) Autumn Meeting 2025. (Oral presentation: 7 November 2025)
+    <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah (2025) "Comparison ERA5 and Sounding Data over Tropical Maritime Region", Presented at The Meteorological Society of Japan (MSJ) Autumn Meeting 2025. (Oral presentation: 7 November 2025)
   </li>
   <li>
     <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah, Edi Riawan (2025) "Tornado Climatology of Indonesia", Presented at Earth, Sea and Sky XI: Workshop for International Joint Graduate Program & Core Research Cluster in Earth and Environmental Sciences, Sendai, Japan. (Poster presentation: 3 June 2025)
