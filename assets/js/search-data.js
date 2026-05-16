@@ -53,16 +53,16 @@ ninja.data = [{
           section: "News",},{id: "news-i-presented-our-progress-results-with-title-comparison-of-era5-and-sounding-data-over-tropical-maritime-region-in-2025-msj-autumn-meeting-on-7-november-2025",
           title: 'I presented our progress results with title ‘Comparison of ERA5 and Sounding Data...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project%20-%20Copy/";
-            },},{id: "projects-ocean-warming",
+          section: "News",},{id: "projects-ocean-warming",
           title: 'Ocean Warming',
           description: "Observation and Projected Impact on Marine Environment",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_ocean_warming/";
+            },},{id: "projects-indonesia-tornado-map-and-database",
+          title: 'Indonesia Tornado Map and Database',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_tornado_map/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
