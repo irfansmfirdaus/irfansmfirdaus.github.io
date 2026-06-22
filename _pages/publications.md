@@ -23,7 +23,7 @@ nav_order: 2
 <h1 id='conference'>Conferences</h1>
 <ul>
   <li>
-    <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah (2025) "Numerical Simulation of Non-Supercell Tornado Rancaekek, Indonesia on 21 February 2024", Presented at JpGU-AGU Meeting 2026. (Oral presentation: 28 May 2026)
+    <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah (2026) "Numerical Simulation of Non-Supercell Tornado Rancaekek, Indonesia on 21 February 2024", Presented at JpGU-AGU Meeting 2026. (Oral presentation: 28 May 2026)
   </li>
   <li>
     <strong>Irfans Maulana Firdaus</strong>, Takeshi Yamazaki, Muhammad Rais Abdillah (2025) "Comparison ERA5 and Sounding Data over Tropical Maritime Region", Presented at The Meteorological Society of Japan (MSJ) Autumn Meeting 2025. (Oral presentation: 7 November 2025)
