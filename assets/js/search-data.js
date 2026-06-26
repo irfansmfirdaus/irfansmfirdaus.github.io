@@ -66,6 +66,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_tornado_map/";
+            },},{id: "projects-climate-change-monitor",
+          title: 'Climate Change Monitor',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_climamonitor/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
