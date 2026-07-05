@@ -71,6 +71,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_climamonitor/";
+            },},{id: "projects-tigge-monitor",
+          title: 'TIGGE Monitor',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_tiggemonitor/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
