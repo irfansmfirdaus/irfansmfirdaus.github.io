@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, hi! I am a Specially Appointed Assitant Professor at the <a href='http://kaigan.civil.tohoku.ac.jp/kaigan/index.html'>Hydro-Environment System Laboratory</a>, <a href="https://www.civil.tohoku.ac.jp/">Department of Civil and Environmental Engineering</a>, <a href="https://www.eng.tohoku.ac.jp/english/">Graduate School of Engineering</a>, at <a href='https://www.tohoku.ac.jp/en/'>Tohoku University</a>, Japan.
+Hi, hi! I am a Specially Appointed Assistant Professor at the <a href='http://kaigan.civil.tohoku.ac.jp/kaigan/index.html'>Hydro-Environment System Laboratory</a>, <a href="https://www.civil.tohoku.ac.jp/">Department of Civil and Environmental Engineering</a>, <a href="https://www.eng.tohoku.ac.jp/english/">Graduate School of Engineering</a>, at <a href='https://www.tohoku.ac.jp/en/'>Tohoku University</a>, Japan.
 
 I received my Ph.D. from the <a href='https://wind.gp.tohoku.ac.jp/'>Atmospheric Science Laboratory</a>, <a href='https://www.gp.tohoku.ac.jp/index-en.html'>Geophysics Department</a>, <a href='https://www.sci.tohoku.ac.jp/english/'>Graduate School of Science</a>, Tohoku University, Japan. Before pursuing my Ph.D., I obtained my B.Sc. in Meteorology and M.Sc. in Earth Science from the <a href='https://itb.ac.id/en?n=1746881850'>Bandung Institute of Technology</a>, Indonesia.
 
