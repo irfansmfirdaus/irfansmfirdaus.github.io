@@ -6,19 +6,19 @@
       year: 2023-2026
       description:
         - Department of Geophysics, Graduate School of Science.
-        - Thesis: Tornadoes in Indonesia: Climatology, Environmental Conditions, and Physical Mechanism.
+        - "Thesis: Tornadoes in Indonesia: Climatology, Environmental Conditions, and Physical Mechanism."
     - title: M.Sc.
       institution: Bandung Institute of Technology (ITB)
       year: 2021-2023
       description:
         - Department of Earth Science, Faculty of Earth Science and Technology.
-        - Thesis: Mechanism of Initiation and Regeneration Convective Cell in Bandung Basin (Case Study: February–March 2019)
+        - "Thesis: Mechanism of Initiation and Regeneration Convective Cell in Bandung Basin (Case Study: February–March 2019)"
     - title: B.Sc.
-          institution: Bandung Institute of Technology (ITB)
-          year: 2015-2019
-          description:
-            - Department of Meteorology, Faculty of Earth Science and Technology.
-            - Thesis: Spatio-temporal Variation of Mesoscale Convective System Type Persistent Elongated Convective System (PECS) in Indonesia
+      institution: Bandung Institute of Technology (ITB)
+      year: 2015-2019
+      description:
+        - Department of Meteorology, Faculty of Earth Science and Technology.
+        - "Thesis: Spatio-temporal Variation of Mesoscale Convective System Type Persistent Elongated Convective System (PECS) in Indonesia"
 
 
 - title: Experience
