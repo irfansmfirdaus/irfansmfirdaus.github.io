@@ -3,13 +3,14 @@ layout: page
 title: Climate Change Monitor
 description: 
 img: assets/img/change.png
+importance: 2
 ---
 
 This page monitors surface air temperature across Indonesia and provides changes in temperature for provincial capitals relative to the 1991–2020 climatological baseline.
 
 Please note that the data are available with an approximate 7-day latency.
 
-**Update:** {{ site.time | date: "%d %B %Y" }}
+**Data date:** {{ site.data.update_climamonitor.date }}
 
 
 <div class="row justify-content-sm-center">
